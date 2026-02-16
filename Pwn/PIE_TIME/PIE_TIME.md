@@ -18,7 +18,7 @@ info functions
 ```
 ### it will return something like this 
 
-![functions list in gdb](../gdb.png)
+![functions list in gdb](./gdb.png)
 
 ### soooooo there is something interesting The **win** Function on **0x2a7**!!
 
@@ -34,10 +34,10 @@ info functions
 run
 ```
 ### we will find the first printf that printed the main function address 
-![Main Function Address](../1.png)
+![Main Function Address](./1.png)
 
 ### and the secound printf is for asking for an Address as an input
-![input](../2.png)
+![input](./2.png)
 
 ### as we notice earlier that the **win** function in on **0x2a7**
 ##### go check the **win** address if u forgot :)
@@ -49,9 +49,9 @@ run
 nc rescued-float.picoctf.net 64536
 ```
 ### take the address of the **main** and change the last 3 byte's to **2a7**
-![](../3.png)
+![](./3.png)
 
 ### our input address is 0x5eb4bd7e22a7
 
 ### And BOOOOOOOOOM you WIN the Flag 
-![](../4.png)
+![](./4.png)
